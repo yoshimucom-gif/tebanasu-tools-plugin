@@ -1,0 +1,40 @@
+/* 不動産の手放し方ツール（記事の図解と同じ紺 #153660・青 #4598c8） */
+.tbt{--tbt-navy:#153660;--tbt-blue:#4598c8;--tbt-line:#d9e2ec;--tbt-bg:#f5f8fb;--tbt-ng:#b3261e;--tbt-mid:#9a6700;--tbt-ok:#1e6b3a;
+  margin:2em 0;border:1px solid var(--tbt-line);border-top:4px solid var(--tbt-navy);border-radius:4px;background:#fff;font-size:16px;line-height:1.8;color:#222}
+.tbt-head{padding:18px 20px 6px}
+.tbt-title{margin:0 0 4px!important;font-size:20px;font-weight:700;color:var(--tbt-navy)}
+.tbt-lead{margin:0!important;font-size:15px;color:#4a5562}
+.tbt-form{padding:6px 20px 18px}
+.tbt-q{border:0;margin:14px 0 0;padding:0}
+.tbt-q legend{font-weight:700;font-size:16px;color:var(--tbt-navy);margin-bottom:6px;padding:0}
+.tbt-note{margin:2px 0 8px!important;font-size:13.5px;color:#5d6b7a}
+.tbt-opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+.tbt-opt{display:flex;align-items:flex-start;gap:8px;border:1px solid var(--tbt-line);border-radius:4px;padding:10px 12px;cursor:pointer;background:#fff;font-size:15px;line-height:1.6}
+.tbt-opt:hover{border-color:var(--tbt-blue)}
+.tbt-opt input{margin-top:5px;accent-color:var(--tbt-navy);flex:0 0 auto}
+.tbt-opt:has(input:checked){border-color:var(--tbt-navy);background:var(--tbt-bg)}
+.tbt-num{width:100%;max-width:280px;padding:10px 12px;border:1px solid var(--tbt-line);border-radius:4px;font-size:16px}
+.tbt-go{display:block;width:100%;max-width:360px;margin:20px auto 0;padding:14px;border:0;border-radius:4px;background:var(--tbt-navy);color:#fff;font-size:16px;font-weight:700;cursor:pointer}
+.tbt-go:hover{background:#0f2a4d}
+.tbt-result{padding:0 20px}
+.tbt-result:not(:empty){padding:18px 20px;border-top:1px solid var(--tbt-line);background:var(--tbt-bg)}
+.tbt-verdict{margin:0 0 10px!important;font-weight:700;font-size:17px}
+.tbt-ok{color:var(--tbt-ok)}.tbt-ng{color:var(--tbt-ng)}.tbt-mid{color:var(--tbt-mid)}
+.tbt-err{margin:0!important;color:var(--tbt-ng);font-weight:700}
+.tbt-sub{margin:12px 0 4px!important;font-weight:700;color:var(--tbt-navy)}
+.tbt-list{margin:8px 0 12px!important;padding-left:1.3em!important}
+.tbt-list li{margin:0 0 6px;font-size:15px}
+.tbt-ng-list li::marker{color:var(--tbt-ng)}
+.tbt-num-out{background:#fff;border:1px solid var(--tbt-line);border-radius:4px;padding:6px 16px;margin-bottom:10px}
+.tbt-num-out p{display:flex;justify-content:space-between;gap:12px;margin:0!important;padding:8px 0;border-bottom:1px solid var(--tbt-line)}
+.tbt-num-out p:last-child{border-bottom:0}
+.tbt-num-out b{font-size:18px;color:var(--tbt-navy);white-space:nowrap}
+.tbt-num-out .tbt-sum b{font-size:22px}
+.tbt-rank{margin:0 0 10px!important;padding-left:1.4em!important}
+.tbt-rank li{margin:0 0 12px;padding:10px 12px;background:#fff;border:1px solid var(--tbt-line);border-radius:4px}
+.tbt-rank li p{margin:0 0 4px!important;font-size:15px}
+.tbt-rank-t{font-weight:700;color:var(--tbt-navy);font-size:16px!important}
+.tbt-link{display:inline-block;margin:4px 12px 0 0;font-size:15px;font-weight:700;color:var(--tbt-blue)}
+.tbt-src{padding:10px 20px 14px;border-top:1px solid var(--tbt-line)}
+.tbt-src p{margin:0!important;font-size:13px;color:#5d6b7a;line-height:1.7}
+@media(max-width:600px){.tbt-head,.tbt-form,.tbt-src{padding-left:14px;padding-right:14px}.tbt-result:not(:empty){padding:14px}.tbt-opts{grid-template-columns:1fr}}

@@ -1,0 +1,13 @@
+{
+  "name": "不動産の手放し方ツール",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/yoshimucom-gif/tebanasu-tools-plugin/main/tebanasu-tools.zip",
+  "requires": "5.8",
+  "tested": "6.7",
+  "requires_php": "7.4",
+  "author": "ミカタ株式会社",
+  "homepage": "https://github.com/yoshimucom-gif/tebanasu-tools-plugin",
+  "sections": {
+    "changelog": "1.0.0\n手放し方診断・国庫帰属の診断と負担金計算・相続放棄の期限計算・保存義務の診断・空き家の3,000万円特例の判定の6つを追加"
+  }
+}
